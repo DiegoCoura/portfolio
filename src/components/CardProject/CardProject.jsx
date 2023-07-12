@@ -27,7 +27,7 @@ export default function CardProject({
                 <Row className="row-tecnologies">
                   {tecnologies.map((tec, index) => {
                     return (
-                      <Col key={index} className="tec-cols" md="2">
+                      <Col key={index} className="tec-cols" md="auto">
                         <Image key={index} className="card-icons" src={tec} rounded />
                       </Col>
                     );
