@@ -1,0 +1,105 @@
+.container-contact-section {
+  max-width: 1180px;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+
+.container-contact-section h3 {
+  font-size: 45px;
+  margin-bottom: 85px;
+}
+.container-contact-section strong {
+  color: #2ca2c8;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.container-contact-section b {
+  color: #2ca2c8;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.container-contact-section button {
+  margin-top: 60px;
+}
+
+.col-form {
+  position: relative;
+  padding: 0;
+}
+
+.form-control {
+  border-radius: 19px;
+  border: 1px solid #666b74;
+  background: rgba(81, 105, 143, 0.15);
+  width: 962px;
+  height: 91px;
+  color: #f1f1f1;
+}
+
+.form-control::placeholder {
+  color: #666b74;
+  font-size: 30px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 2px solid #2ca2c8;
+  -webkit-text-fill-color: #f1f1f1;
+  -webkit-box-shadow: 0 0 0px 1000px rgba(81, 105, 143, 0.15) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  background: rgba(81, 105, 143, 0.15);
+  color: #f1f1f1;
+  border: 2px solid #2ca2c8;
+}
+
+.form-control:placeholder-shown {
+  color: #666b74;
+  font-size: 30px;
+  background: rgba(81, 105, 143, 0.15);
+}
+
+.form-message {
+  width: 962px;
+  height: 226px;
+  resize: none;
+}
+
+.col-form button {
+  position: absolute;
+  right: 0;
+  width: 238px;
+  height: 65px;
+  background-color: transparent;
+  border-radius: 32px;
+  border: 2px solid #2ca2c8;
+  font-size: 22px;
+  color: #f1f1f1;
+}
+
+.col-form button:hover {
+  color: #2ca2c8;
+  background: transparent;
+  border: 2px solid #2ca2c8;
+  transition: 0.2s ease-in-out;
+}
+
+.col-form button:hover .arrowIcon path {
+  fill: #2ca2c8;
+  transition: 0.2s ease-in-out;
+}

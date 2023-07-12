@@ -1,8 +1,9 @@
 import Col from "react-bootstrap/esm/Col";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
-import CardProject from "/src/components/CardProject.jsx";
+import CardProject from "/src/components/CardProject/CardProject.jsx";
 import Projetos from "/src/assets/projects/projectsData.js";
+import "./styles.css";
 
 export default function CardsSection() {
   return (

@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
+import "./styles.css";
 
 export default function TopBar() {
   return (

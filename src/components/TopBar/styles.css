@@ -1,0 +1,41 @@
+.navbar {
+    padding: 0;
+  }
+  
+  .container-nav {
+    padding: 37px 0px;
+    max-width: 1180px;
+    height: 139px;
+  }
+  
+  a.navbar-brand {
+    color: #d9d9d9;
+    font-size: 30px;
+  }
+  
+  .navbar-brand:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  .navbar-brand:click {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .logos-cols {
+    width: auto;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+  }
+  
+  .logos-cols:not(:hover) {
+    filter: opacity(70%);
+    transform: scale(1);
+  }
+  
+  .logos-top {
+    height: 48px;
+    width: 48px;
+  }

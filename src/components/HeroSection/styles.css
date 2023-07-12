@@ -1,0 +1,148 @@
+.container-first-section {
+  margin-top: 175px;
+  margin-bottom: 175px;
+  max-width: 1180px;
+}
+
+.row-first-section {
+  padding: 0px;
+}
+
+.col-1-first-section {
+  padding: 0px;
+}
+
+.col-1-first-section p {
+  color: #d9d9d9;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.container-col1-section {
+  padding: 0px;
+}
+
+.h3-first-section {
+  font-size: 40px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+h2 strong {
+  font-weight: 700;
+  font-size: 60px;
+  color: #2ca2c8;
+}
+.h2-first-section {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.p-first-section {
+  margin-top: 30px;
+}
+
+.row-buttons {
+  margin-top: 60px;
+}
+
+.btn-first-section-download {
+  width: 242px;
+  height: 79px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 40px;
+  margin: 0px 22px 26px 0px;
+  background-color: #2ca2c8;
+  color: #0f1724;
+  border: 0;
+}
+
+.btn-first-section-download:hover {
+  background-color: #f1f1f1;
+  color: #0f1724;
+}
+
+.btn-first-section-contact {
+  width: 242px;
+  height: 79px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 40px;
+  margin: 0px 22px 26px 0px;
+  background-color: transparent;
+  border: 1px solid #d9d9d9;
+  color: #f1f1f1;
+}
+
+.btn-first-section-contact:hover {
+  border: 1px solid #f1f1f1;
+  color: #2ca2c8;
+  background-color: transparent;
+}
+
+/* Container Banner */
+
+.col-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-2-coluna {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.col-banner img {
+  position: absolute;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes anti-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+
+@keyframes anti-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.banner-img-azul {
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 40s linear infinite;
+}
+
+.banner-img-branco {
+  -webkit-animation: anti-spin 2s linear infinite;
+  animation: anti-spin 15s linear infinite;
+}

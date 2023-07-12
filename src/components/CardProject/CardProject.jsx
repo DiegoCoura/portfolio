@@ -5,6 +5,7 @@ import Col from "react-bootstrap/esm/Col";
 import Image from "react-bootstrap/esm/Image";
 import Row from "react-bootstrap/esm/Row";
 import Container from "react-bootstrap/Container";
+import "./styles.css";
 
 export default function CardProject({
   title,
