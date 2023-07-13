@@ -49,7 +49,7 @@ export default function FooterBar() {
                 </Row>
               </Container>
             </Nav.Link>
-            <Nav.Link href="#pricing">
+            <Nav.Link href="#contactSection">
               <Container>
                 <Row>
                   <Col xs={6} md={4} className="logos-cols">

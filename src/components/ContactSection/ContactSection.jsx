@@ -21,7 +21,7 @@ export default function ContactSection() {
   };
   return (
     <>
-      <Container className="container-contact-section">
+      <Container id="contactSection" className="container-contact-section">
         <Row>
           <Col>
             <h3>

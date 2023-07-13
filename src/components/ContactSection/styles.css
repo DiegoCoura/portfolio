@@ -39,6 +39,7 @@
   width: 962px;
   height: 91px;
   color: #f1f1f1;
+  font-size: 25px;
 }
 
 .form-control::placeholder {

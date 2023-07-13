@@ -19,7 +19,9 @@ export default function CardProject({
         <Row>
           <Col className="col-cardProject">
             <Card className="card-project">
-              <Card.Img className="card-banner" variant="top" src={banner} />
+              <Container className="container-card-banner">
+                <Card.Img className="card-banner" variant="top" src={banner} />
+              </Container>
               <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>{description}</Card.Text>
@@ -28,7 +30,12 @@ export default function CardProject({
                   {tecnologies.map((tec, index) => {
                     return (
                       <Col key={index} className="tec-cols" md="auto">
-                        <Image key={index} className="card-icons" src={tec} rounded />
+                        <Image
+                          key={index}
+                          className="card-icons"
+                          src={tec}
+                          rounded
+                        />
                       </Col>
                     );
                   })}
