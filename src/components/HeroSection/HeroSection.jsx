@@ -39,9 +39,9 @@ export default function HeroSection() {
           </Col>
           <Col className="col-md6 col-banner">
             <Container className="container-2-coluna">
-              <Image className="banner-img-azul" src="/src/assets/imgs/vetorFundo.svg" rounded />
-              <Image className="banner-img-foto" src="/src/assets/imgs/fotoDida.svg" roundedCircle />
-              <Image className="banner-img-branco" src="/src/assets/imgs/vetorSemFundo.svg" rounded />
+              <Image className="banner-img-azul" src="/src/assets/imgs/vetorFundo-1.png" rounded />
+              <Image className="banner-img-foto" src="/src/assets/imgs/fotoDida-2.png" roundedCircle />
+              <Image className="banner-img-branco" src="/src/assets/imgs/vetorSemFundo-1.png" rounded />
             </Container>
           </Col>
         </Row>

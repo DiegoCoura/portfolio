@@ -6,19 +6,52 @@ import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import "./styles.css";
+import emailjs from "@emailjs/browser";
 
 export default function ContactSection() {
   const [validated, setValidated] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event) => {   
+    event.preventDefault();
+    
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
+      return;
     }
 
-    setValidated(true);
+    setValidated(true);    
+
+    const templateParams = {
+      from_name: name,
+      email: email,
+      message: message
+    };
+
+    emailjs
+      .send(
+        "service_szx465r",
+        "template_g2pt00i",
+        templateParams,
+        "W_TnL5zcZhDI2jtw7"
+      )
+      .then(
+        (response) => {
+          console.log("Email Enviado", response.status, response.text);
+          setName("");
+          setEmail("");
+          setMessage("");
+        },
+        (err) => {
+          console.log("ERRO: ", err);
+        }
+      );
   };
+
   return (
     <>
       <Container id="contactSection" className="container-contact-section">
@@ -35,13 +68,15 @@ export default function ContactSection() {
             <Form noValidate validated={validated} onSubmit={handleSubmit}>
               <Form.Group
                 className="mb-3"
-                controlId="exampleForm.ControlInput1"
+                controlId="nameInput"
               >
                 <Form.Control
                   required
-                  type="name"
+                  type="text"
                   className="form-name"
                   placeholder="Name"
+                  onChange={(e)=> setName(e.target.value)}
+                  value={name}
                 />
                 <Form.Control.Feedback type="invalid">
                   Please type your name.
@@ -49,13 +84,15 @@ export default function ContactSection() {
               </Form.Group>
               <Form.Group
                 className="mb-3"
-                controlId="exampleForm.ControlInput1"
+                controlId="emailInput"
               >
                 <Form.Control
                   required
                   className="form-email"
-                  type="email"
+                  type="text"
                   placeholder="Email"
+                  onChange={(e)=> setEmail(e.target.value)}
+                  value={email}
                 />
                 <Form.Control.Feedback type="invalid">
                   Please insert your email.
@@ -63,14 +100,18 @@ export default function ContactSection() {
               </Form.Group>
               <Form.Group
                 className="mb-3"
-                controlId="exampleForm.ControlTextarea1"
+                controlId="messageInput"
               >
                 <Form.Control
                   required
+                  type="text"
+                  name="message"
                   className="form-message"
                   as="textarea"
                   rows={3}
                   placeholder="Message"
+                  onChange={(e)=> setMessage(e.target.value)}
+                  value={message}
                 />
                 <Form.Control.Feedback type="invalid">
                   Please type a message.
@@ -78,7 +119,8 @@ export default function ContactSection() {
               </Form.Group>
               <Button type="submit">
                 Send{" "}
-                <svg className="arrowIcon"
+                <svg
+                  className="arrowIcon"
                   xmlns="http://www.w3.org/2000/svg"
                   width="27"
                   height="19"

@@ -101,6 +101,11 @@ h2 strong {
   position: absolute;  
 }
 
+.banner-img-foto{
+  width: 400px;
+  height: 400px;
+}
+
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -138,11 +143,16 @@ h2 strong {
 }
 
 .banner-img-azul {
+  width: 537px;
+  height: 484px;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 40s linear infinite;
+  
 }
 
 .banner-img-branco {
+  width: 465px;
+  height: 470px;
   -webkit-animation: anti-spin 2s linear infinite;
   animation: anti-spin 15s linear infinite;
 }
