@@ -9,27 +9,22 @@ import "./styles.css";
 import emailjs from "@emailjs/browser";
 
 export default function ContactSection() {
-  const [validated, setValidated] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (event) => {   
+  const handleSubmit = (event) => {
     event.preventDefault();
-    
-    const form = event.currentTarget;
-    if (form.checkValidity() === false) {
-      event.preventDefault();
-      event.stopPropagation();
+
+    if (name === "" || email === "" || message === "") {
+      alert("Preencha todos os campos");
       return;
     }
-
-    setValidated(true);    
 
     const templateParams = {
       from_name: name,
       email: email,
-      message: message
+      message: message,
     };
 
     emailjs
@@ -65,43 +60,28 @@ export default function ContactSection() {
         </Row>
         <Row>
           <Col className="col-form">
-            <Form noValidate validated={validated} onSubmit={handleSubmit}>
-              <Form.Group
-                className="mb-3"
-                controlId="nameInput"
-              >
+            <Form onSubmit={handleSubmit}>
+              <Form.Group className="mb-3" controlId="nameInput">
                 <Form.Control
                   required
                   type="text"
                   className="form-name"
                   placeholder="Name"
-                  onChange={(e)=> setName(e.target.value)}
+                  onChange={(e) => setName(e.target.value)}
                   value={name}
                 />
-                <Form.Control.Feedback type="invalid">
-                  Please type your name.
-                </Form.Control.Feedback>
               </Form.Group>
-              <Form.Group
-                className="mb-3"
-                controlId="emailInput"
-              >
+              <Form.Group className="mb-3" controlId="emailInput">
                 <Form.Control
                   required
                   className="form-email"
                   type="text"
                   placeholder="Email"
-                  onChange={(e)=> setEmail(e.target.value)}
+                  onChange={(e) => setEmail(e.target.value)}
                   value={email}
                 />
-                <Form.Control.Feedback type="invalid">
-                  Please insert your email.
-                </Form.Control.Feedback>
               </Form.Group>
-              <Form.Group
-                className="mb-3"
-                controlId="messageInput"
-              >
+              <Form.Group className="mb-3" controlId="messageInput">
                 <Form.Control
                   required
                   type="text"
@@ -110,12 +90,9 @@ export default function ContactSection() {
                   as="textarea"
                   rows={3}
                   placeholder="Message"
-                  onChange={(e)=> setMessage(e.target.value)}
+                  onChange={(e) => setMessage(e.target.value)}
                   value={message}
                 />
-                <Form.Control.Feedback type="invalid">
-                  Please type a message.
-                </Form.Control.Feedback>
               </Form.Group>
               <Button type="submit">
                 Send{" "}
