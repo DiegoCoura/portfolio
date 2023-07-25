@@ -40,9 +40,9 @@ export default function HeroSection() {
           </Col>
           <Col xl={6} className="col-banner">
             <Container className="container-2-coluna">
-              <Image className="banner-img-azul" src="/public/static/images/vetorFundo-1.png" rounded />
-              <Image className="banner-img-foto" src="/public/static/images/fotoDida-2.png" roundedCircle />
-              <Image className="banner-img-branco" src="/public/static/images/vetorSemFundo-1.png" rounded />
+              <Image className="banner-img-azul" src="/static/images/vetorFundo-1.png" rounded />
+              <Image className="banner-img-foto" src="/static/images/fotoDida-2.png" roundedCircle />
+              <Image className="banner-img-branco" src="/static/images/vetorSemFundo-1.png" rounded />
             </Container>
           </Col>
         </Row>

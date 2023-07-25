@@ -25,7 +25,7 @@ export default function FooterBar() {
                   <Col xs={6} md={4} className="logos-cols">
                     <Image
                       className="logos-top"
-                      src="/public/static/images/github-icon-100.svg"
+                      src="/static/images/github-icon-100.svg"
                       roundedCircle
                     />
                   </Col>
@@ -42,7 +42,7 @@ export default function FooterBar() {
                   <Col xs={6} md={4} className="logos-cols">
                     <Image
                       className="logos-top"
-                      src="/public/static/images/linkedin-icon-100.svg"
+                      src="/static/images/linkedin-icon-100.svg"
                       roundedCircle
                     />
                   </Col>
@@ -55,7 +55,7 @@ export default function FooterBar() {
                   <Col xs={6} md={4} className="logos-cols">
                     <Image
                       className="logos-top"
-                      src="/public/static/images/arroba-100.svg"
+                      src="/static/images/arroba-100.svg"
                       roundedCircle
                     />
                   </Col>
