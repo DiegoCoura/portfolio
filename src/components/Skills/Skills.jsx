@@ -15,11 +15,11 @@ export default function Skills() {
         </Col>
       </Row>
       <Row md={5} xs={3} className="justify-content-center gap-3">        
-        <Col className="skills-cols"><Image className="skills-img" src="/src/assets/imgs/html-100.svg" rounded /></Col>
-        <Col className="skills-cols"><Image className="skills-img" src="/src/assets/imgs/css-100.svg" rounded /></Col>
-        <Col className="skills-cols"><Image className="skills-img" src="/src/assets/imgs/js-100.svg" rounded /></Col>
-        <Col className="skills-cols"><Image className="skills-img" src="/src/assets/imgs/react-100.svg" rounded /></Col>
-        <Col className="skills-cols"><Image className="skills-img" src="/src/assets/imgs/bootstrap-100.svg" rounded /></Col>
+        <Col className="skills-cols"><Image className="skills-img" src="/public/static/images/html-100.svg" rounded /></Col>
+        <Col className="skills-cols"><Image className="skills-img" src="/public/static/images/css-100.svg" rounded /></Col>
+        <Col className="skills-cols"><Image className="skills-img" src="/public/static/images/js-100.svg" rounded /></Col>
+        <Col className="skills-cols"><Image className="skills-img" src="/public/static/images/react-100.svg" rounded /></Col>
+        <Col className="skills-cols"><Image className="skills-img" src="/public/static/images/bootstrap-100.svg" rounded /></Col>
       </Row>
     </Container>
   );
