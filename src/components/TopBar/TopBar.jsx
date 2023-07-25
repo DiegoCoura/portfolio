@@ -26,7 +26,7 @@ export default function TopBar() {
                     <Col xs={6} md={4} className="logos-cols">
                       <Image
                         className="logos-top"
-                        src="/public/static/images/github-icon-100.svg"
+                        src="/static/images/github-icon-100.svg"
                         roundedCircle
                       />
                     </Col>
