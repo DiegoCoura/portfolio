@@ -11,7 +11,7 @@ export default function HeroSection() {
     <>
       <Container className="container-first-section">
         <Row className="row-first-section">
-          <Col className="col-md6 col-1-first-section">
+          <Col xl={6} className="col-1-first-section">
             <Container className="container-col1-section">
               <h3 className="h3-first-section">
                 Hello! <br></br>
@@ -21,23 +21,24 @@ export default function HeroSection() {
                 <br></br>
                 Front End developer
               </h2>
-            </Container>
-            <p className="p-first-section">
+              <p className="p-first-section">
               With 1 year of software development experience, I have build{" "}
               <br></br>a solid expertise in React, JavaScript, HTML, CSS, and
               Bootstrap,<br></br>
               gaining practical proficiency through hands-on projects.
             </p>
             <Row className="row-buttons">
-              <Col>
-                <Button className="btn-first-section-download">
+              <Col className="container-buttons-first-section">
+                <Button className="btn-download">
                   Download CV
                 </Button>
-                <Button className="btn-first-section-contact">Contact</Button>
+                <Button className="btn-contact" href="#contactSection">Contact</Button>
               </Col>
             </Row>
+            </Container>
+            
           </Col>
-          <Col className="col-md6 col-banner">
+          <Col xl={6} className="col-banner">
             <Container className="container-2-coluna">
               <Image className="banner-img-azul" src="/src/assets/imgs/vetorFundo-1.png" rounded />
               <Image className="banner-img-foto" src="/src/assets/imgs/fotoDida-2.png" roundedCircle />

@@ -2,7 +2,6 @@
 import Container from "react-bootstrap/Container";
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
-import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import "./styles.css";
@@ -50,16 +49,13 @@ export default function ContactSection() {
   return (
     <>
       <Container id="contactSection" className="container-contact-section">
-        <Row>
-          <Col>
+        <Row>          
             <h3>
               <strong>&lt;</strong>Let's Talk<b>&#8260;</b>
               <strong>&gt;</strong>
-            </h3>
-          </Col>
+            </h3>          
         </Row>
-        <Row>
-          <Col className="col-form">
+        <Row className="row-form">
             <Form onSubmit={handleSubmit}>
               <Form.Group className="mb-3" controlId="nameInput">
                 <Form.Control
@@ -94,7 +90,7 @@ export default function ContactSection() {
                   value={message}
                 />
               </Form.Group>
-              <Button type="submit">
+              <Button className="send-btn" type="submit">
                 Send{" "}
                 <svg
                   className="arrowIcon"
@@ -111,7 +107,7 @@ export default function ContactSection() {
                 </svg>
               </Button>
             </Form>
-          </Col>
+          
         </Row>
       </Container>
     </>
