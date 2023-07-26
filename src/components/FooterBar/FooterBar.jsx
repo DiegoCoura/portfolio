@@ -9,22 +9,22 @@ import "./styles.css";
 export default function FooterBar() {
   return (
     <>
-      <Navbar>
-        <Container className="container-footer">
-          <Navbar.Brand href="/" className="text-decoration-none">
+      <Navbar className="nav-footer">
+        <Container className="container-nav-footer">
+          <Navbar.Brand href="/" className="text-decoration-none brand-footer">
             D.C. Portfolio
           </Navbar.Brand>
-          <Nav className="me-5">
+          <Nav className="nav-logos-footer">
             <Nav.Link
               target="_blank"
               rel="noopener noreferrer"
               href="https://github.com/DiegoCoura"
             >
-              <Container>
+              <Container className="container-logos-footer">
                 <Row>
-                  <Col xs={6} md={4} className="logos-cols">
+                  <Col xs={6} md={4} className="logos-cols-footer">
                     <Image
-                      className="logos-top"
+                      className="logos-footer"
                       src="/static/images/github-icon-100.svg"
                       roundedCircle
                     />
@@ -37,11 +37,11 @@ export default function FooterBar() {
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/diego-coura-18b88317b/"
             >
-              <Container>
+              <Container className="container-logos-footer">
                 <Row>
-                  <Col xs={6} md={4} className="logos-cols">
+                  <Col xs={6} md={4} className="logos-cols-footer">
                     <Image
-                      className="logos-top"
+                      className="logos-footer"
                       src="/static/images/linkedin-icon-100.svg"
                       roundedCircle
                     />
@@ -50,11 +50,11 @@ export default function FooterBar() {
               </Container>
             </Nav.Link>
             <Nav.Link href="#contactSection">
-              <Container>
+              <Container className="container-logos-footer">
                 <Row>
-                  <Col xs={6} md={4} className="logos-cols">
+                  <Col xs={6} md={4} className="logos-cols-footer">
                     <Image
-                      className="logos-top"
+                      className="logos-footer"
                       src="/static/images/arroba-100.svg"
                       roundedCircle
                     />
@@ -63,6 +63,7 @@ export default function FooterBar() {
               </Container>
             </Nav.Link>
           </Nav>
+          
         </Container>
       </Navbar>
     </>

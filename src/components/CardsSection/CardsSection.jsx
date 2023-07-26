@@ -10,11 +10,11 @@ export default function CardsSection() {
     <>
       <Container className="container-projects-title">
         <Row>
-          <h3 className="skills-h3">Projects</h3>
+          <h3 className="projects-h3">Projects</h3>
         </Row>
       </Container>
       <Container className="container-cards">
-        <Row className="column-gap-5">
+        <Row className="row-projects gap-2">
           {Projetos.map((project) => {
             return (
               <Col className="col-cards" key={project.id}>

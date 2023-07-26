@@ -21,9 +21,3 @@ body {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
 }
-
-.container-app {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}

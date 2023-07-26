@@ -1,7 +1,4 @@
 .container-first-section {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   margin-top: 175px;
   margin-bottom: 175px;
   max-width: 1180px;
@@ -46,6 +43,7 @@ h2 strong {
 
 .p-first-section {
   margin-top: 30px;
+  font-size: 16px;
 }
 
 .row-buttons {
@@ -135,15 +133,103 @@ h2 strong {
 }
 
 /* Mobile */
+@media (max-width: 575px) {
+  .container-first-section {
+    padding: 0 60px;
+    margin: 200px auto 45px;
+  }
+
+  .h3-first-section {
+    font-size: 20px;
+    padding-bottom: 0px;
+  }
+
+  h2 strong {
+    font-size: 30px;
+  }
+  .h2-first-section {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .p-first-section {
+    margin-top: 15px;
+    font-size: 10px;
+  }
+
+  .row-buttons {
+    margin-top: 60px;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .container-buttons-first-section {
+    padding: 0;
+  }
+
+  .btn-download {
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 40px;
+    margin: 0px 22px 26px 0px;
+  }
+
+  .btn-contact {
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 40px;
+    margin: 0px 22px 26px 0px;
+    background-color: transparent;
+    border: 1px solid #d9d9d9;
+    color: #f1f1f1;
+    padding: 13px;
+  }
+
+  .col-banner {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-2-coluna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+    height: 480px;
+  }
+
+  .col-banner img {
+    position: absolute;
+  }
+
+  .banner-img-foto {
+    width: 75%;
+    height: auto;
+  }
+
+  .banner-img-azul {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner-img-branco {
+    width: 85%;
+    height: auto;
+  }
+}
 
 @media (max-width: 1201px) {
   .container-first-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 175px;
-    margin: 20px auto 175px auto;
+    margin: 20px auto 175px;
   }
 
   .col-1-first-section {
