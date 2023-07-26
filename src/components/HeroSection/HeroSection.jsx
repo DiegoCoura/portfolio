@@ -28,7 +28,7 @@ export default function HeroSection() {
               </p>
               <Row className="row-buttons">
                 <Col className="container-buttons-first-section">
-                  <Button className="btn-download">Download CV</Button>
+                  <Button className="btn-download" href="src/assets/cv/diegocoura-cv-en.pdf" download>Download CV</Button>
                   <Button className="btn-contact" href="#contactSection">
                     Contact
                   </Button>
