@@ -20,6 +20,12 @@
   width: 100%;
   height: auto;
   max-width: 190px;
+  transition: transform .5s;
+}
+
+.skills-img:hover{
+  padding: 0px;
+  transform: scale(1.1);
 }
 
 @media (min-width: 992px){

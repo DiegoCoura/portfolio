@@ -41,10 +41,10 @@ export default function CardProject({
                   })}
                 </Row>
                 <Row className="row-card-buttons">
-                  <Col className="col-card-buttons" md="auto">
+                  <Col className="col-card-buttons">
                     <Button className="card-buttons">Live Preview</Button>
                   </Col>
-                  <Col className="col-card-buttons" md="auto">
+                  <Col className="col-card-buttons">
                     <Button className="card-buttons">Check on Github</Button>
                   </Col>
                 </Row>
