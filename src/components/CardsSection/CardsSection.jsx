@@ -14,7 +14,7 @@ export default function CardsSection() {
         </Row>
       </Container>
       <Container className="container-cards">
-        <Row className="row-projects gap-2">
+        <Row className="row-projects row-cols-1 row-cols-lg-2 row-gap-4">
           {Projetos.map((project) => {
             return (
               <Col className="col-cards" key={project.id}>

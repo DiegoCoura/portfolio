@@ -11,7 +11,8 @@
 
 .card-skill-img{
   text-align: center;
-  padding: 10px;
+  padding: 0px;
+  margin-bottom: 25px;
 }
 
 .skills-img{
@@ -31,7 +32,7 @@
 @media (max-width: 575px) {
   .skills-container {
     max-width: 500px;
-    margin-bottom: 175px;
+    margin: -150px auto 50px;
     padding: 0 60px;
   }
 
@@ -44,11 +45,7 @@
     text-align: center;
     padding: 0px;
   }
-  .skills-img{
-    padding: 0px;
-    width: 100%;
-    max-width: 80px;
-  }
+  
   
 }
 
