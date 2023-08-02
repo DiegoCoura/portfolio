@@ -17,7 +17,7 @@
 .card-project {
   background-color: rgba(25, 35, 52, 0.7);
   width: 500px;
-  height: 838px;
+  height: auto;
   color: #d9d9d9;
   align-items: center;
   padding: 40px;
@@ -112,7 +112,6 @@
   .card-project {
     background-color: rgba(25, 35, 52, 0.7);
     width: 293px;
-    height: 440px;
     color: #d9d9d9;
     align-items: center;
     padding: 20px;

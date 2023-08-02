@@ -16,6 +16,7 @@
 
 .row-projects{
   max-width: 100%;
+  margin: 0;
 }
 
 @media (max-width: 575px){
