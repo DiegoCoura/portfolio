@@ -122,15 +122,11 @@ h2 strong {
 .banner-img-azul {
   width: 537px;
   height: 484px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 40s linear infinite;
 }
 
 .banner-img-branco {
   width: 465px;
   height: 470px;
-  -webkit-animation: anti-spin 2s linear infinite;
-  animation: anti-spin 15s linear infinite;
 }
 
 /* Mobile */
@@ -282,5 +278,15 @@ h2 strong {
     100% {
       transform: rotate(-360deg);
     }
+  }
+
+  .banner-img-azul {
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 40s linear infinite;
+  }
+  
+  .banner-img-branco {    
+    -webkit-animation: anti-spin 2s linear infinite;
+    animation: anti-spin 15s linear infinite;
   }
 }
