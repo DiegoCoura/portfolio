@@ -7,7 +7,7 @@
 
 ### [**Live Page**](https://diegocoura.vercel.app/)
 
-## Tools
+## 🛠️ Tools
 
 [<img alt="Visual Studio Code" width="50px" style="padding-right: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"  />](https://code.visualstudio.com/ "Visual Studio Code")
 [<img alt="ReactJs" width="50px" style="padding-right: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"  />](https://reactjs.org/ "ReactJS")
