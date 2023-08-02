@@ -15,7 +15,7 @@ const Projetos = [
         description: "The project involves creating HTML and CSS for email marketing and developing the correct code for an email delivery platform.",
         technologies: ["/static/images/html-100.svg", "/static/images/css-100.svg"],
         live:"",
-        code:""
+        code:"https://github.com/DiegoCoura/email-marketing"
     }
 ]
 

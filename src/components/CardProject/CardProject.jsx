@@ -12,6 +12,8 @@ export default function CardProject({
   banner,
   description,
   technologies,
+  live,
+  code,
 }) {
   return (
     <>
@@ -41,11 +43,23 @@ export default function CardProject({
                   })}
                 </Row>
                 <Row className="row-card-buttons">
+                  {live && (
+                    <Col className="col-card-buttons">
+                      <Button
+                        className="card-buttons"
+                        href={live}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Live Preview
+                      </Button>
+                    </Col>
+                  )}            
                   <Col className="col-card-buttons">
-                    <Button className="card-buttons">Live Preview</Button>
-                  </Col>
-                  <Col className="col-card-buttons">
-                    <Button className="card-buttons">Check on Github</Button>
+                    <Button className="card-buttons"
+                        href={code}
+                        target="_blank"
+                        rel="noopener noreferrer">Check on Github</Button>
                   </Col>
                 </Row>
               </Card.Body>

@@ -23,6 +23,8 @@ export default function CardsSection() {
                   title={project.title}
                   description={project.description}
                   technologies={project.technologies}
+                  live={project.live}
+                  code={project.code}
                 />
               </Col>
             );
