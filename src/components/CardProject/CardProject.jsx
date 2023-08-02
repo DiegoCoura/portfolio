@@ -11,7 +11,7 @@ export default function CardProject({
   title,
   banner,
   description,
-  tecnologies,
+  technologies,
 }) {
   return (
     <>
@@ -25,9 +25,9 @@ export default function CardProject({
               <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>{description}</Card.Text>
-                <h4>Tecnologies</h4>
-                <Row className="row-tecnologies">
-                  {tecnologies.map((tec, index) => {
+                <h4>Technologies</h4>
+                <Row className="row-technologies">
+                  {technologies.map((tec, index) => {
                     return (
                       <Col key={index} className="tec-cols">
                         <Image

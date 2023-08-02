@@ -68,7 +68,7 @@
   margin-bottom: 20px;
 }
 
-.row-tecnologies {
+.row-technologies {
   display: flex;
   flex-wrap: nowrap;
   width: 70px;
@@ -148,7 +148,7 @@
     margin-bottom: 7px;
   }
 
-  .row-tecnologies {
+  .row-technologies {
     display: flex;
     flex-wrap: nowrap;
     width: 70px;

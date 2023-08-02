@@ -66,7 +66,7 @@ h2 strong {
   background-color: #2ca2c8;
   color: #0f1724;
   border: 0;
-  padding: 22px;
+  padding: 24px;
 }
 
 .btn-download:hover {
@@ -84,7 +84,7 @@ h2 strong {
   background-color: transparent;
   border: 1px solid #d9d9d9;
   color: #f1f1f1;
-  padding: 22px;
+  padding: 24px;
 }
 
 .btn-contact:hover {
@@ -175,7 +175,7 @@ h2 strong {
     font-weight: 500;
     border-radius: 40px;
     margin: 0px 22px 26px 0px;
-    padding: 13px;
+    padding: 14px;
   }
 
   .btn-contact {
@@ -188,7 +188,7 @@ h2 strong {
     background-color: transparent;
     border: 1px solid #d9d9d9;
     color: #f1f1f1;
-    padding: 13px;
+    padding: 14px;
   }
 
   .col-banner {

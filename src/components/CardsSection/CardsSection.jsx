@@ -22,7 +22,7 @@ export default function CardsSection() {
                   banner={project.banner}
                   title={project.title}
                   description={project.description}
-                  tecnologies={project.tecnologies}
+                  technologies={project.technologies}
                 />
               </Col>
             );
