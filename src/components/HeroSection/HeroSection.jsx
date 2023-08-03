@@ -19,10 +19,10 @@ export default function HeroSection() {
               <h2 className="h2-first-section">
                 <strong>I'm Diego Coura,</strong>
                 <br></br>
-                Front End developer
+                Front-End developer
               </h2>
               <p className="p-first-section">
-                With 1 year of software development experience, I have build a
+                With 1 year of software development experience, I have built a
                 solid expertise in React, JavaScript, HTML, CSS, and Bootstrap,
                 gaining practical proficiency through hands-on projects.
               </p>

@@ -137,7 +137,6 @@ h2 strong {
 @media (max-width: 575px) {
   .container-first-section {
     padding: 0 60px;
-    margin: 200px auto 45px;
   }
 
   .h3-first-section {
@@ -237,7 +236,7 @@ h2 strong {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px auto 175px;
+    margin: 50px auto 175px;
   }
 
   .col-1-first-section {
