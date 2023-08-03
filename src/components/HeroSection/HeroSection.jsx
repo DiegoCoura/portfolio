@@ -54,7 +54,16 @@ export default function HeroSection() {
                 rounded
               />
             </Container>
+            
           </Col>
+          <Row className="row-buttons-2">
+                <Col className="container-buttons-first-section">
+                  <Button className="btn-download" href="/static/diegocoura-cv-en.pdf" download>Download CV</Button>
+                  <Button className="btn-contact" href="#contactSection">
+                    Contact
+                  </Button>
+                </Col>
+              </Row>
         </Row>
       </Container>
     </>

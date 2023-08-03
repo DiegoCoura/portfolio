@@ -52,6 +52,10 @@ h2 strong {
   margin-left: 0px;
 }
 
+.row-buttons-2 {
+  display: none;
+}
+
 .container-buttons-first-section {
   padding: 0;
 }
@@ -155,6 +159,11 @@ h2 strong {
   }
 
   .row-buttons {
+    display: none;
+  }
+  
+  .row-buttons-2 {
+    display: flex;
     margin-top: 60px;
     width: 100%;
     margin-left: 0px;
@@ -199,7 +208,8 @@ h2 strong {
     justify-content: center;
     align-items: center;
     padding-left: 80px;
-    height: 480px;
+    height: 272px;
+    margin-bottom: 10px;
   }
 
   .col-banner img {
@@ -207,18 +217,18 @@ h2 strong {
   }
 
   .banner-img-foto {
-    width: 75%;
-    height: auto;
+    width: 210px;
+    height: 210px;
   }
 
   .banner-img-azul {
-    width: 100%;
-    height: auto;
+    width: 286px;
+    height: 258px;
   }
 
   .banner-img-branco {
-    width: 85%;
-    height: auto;
+    width: 248px;
+    height: 250px;
   }
 }
 
@@ -236,7 +246,6 @@ h2 strong {
 
   .container-2-coluna {
     padding: 0;
-    height: 500px;
     margin-top: 33px;
   }
 }
