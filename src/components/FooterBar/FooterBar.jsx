@@ -2,9 +2,10 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
+import Icons from "../icons/Icons";
 import "./styles.css";
+
 
 export default function FooterBar() {
   return (
@@ -23,11 +24,7 @@ export default function FooterBar() {
               <Container className="container-logos-footer">
                 <Row>
                   <Col xs={6} md={4} className="logos-cols-footer">
-                    <Image
-                      className="logos-footer"
-                      src="/static/images/github-icon-100.svg"
-                      roundedCircle
-                    />
+                    <Icons.GithubIcon />
                   </Col>
                 </Row>
               </Container>
@@ -40,11 +37,7 @@ export default function FooterBar() {
               <Container className="container-logos-footer">
                 <Row>
                   <Col xs={6} md={4} className="logos-cols-footer">
-                    <Image
-                      className="logos-footer"
-                      src="/static/images/linkedin-icon-100.svg"
-                      roundedCircle
-                    />
+                    <Icons.LinkedinIcon />
                   </Col>
                 </Row>
               </Container>
@@ -53,11 +46,7 @@ export default function FooterBar() {
               <Container className="container-logos-footer">
                 <Row>
                   <Col xs={6} md={4} className="logos-cols-footer">
-                    <Image
-                      className="logos-footer"
-                      src="/static/images/arroba-100.svg"
-                      roundedCircle
-                    />
+                    <Icons.ArrobaIcon />
                   </Col>
                 </Row>
               </Container>

@@ -2,9 +2,9 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import "./styles.css";
+import Icons from "../icons/Icons";
 
 export default function TopBar() {
   return (
@@ -23,11 +23,7 @@ export default function TopBar() {
               <Container className="container-logos-top">
                 <Row>
                   <Col xs={6} md={4} className="logos-cols-top">
-                    <Image
-                      className="logos-top"
-                      src="/static/images/github-icon-100.svg"
-                      roundedCircle
-                    />
+                    <Icons.GithubIcon />
                   </Col>
                 </Row>
               </Container>
@@ -40,11 +36,7 @@ export default function TopBar() {
               <Container className="container-logos-top">
                 <Row>
                   <Col xs={6} md={4} className="logos-cols-top">
-                    <Image
-                      className="logos-top"
-                      src="/static/images/linkedin-icon-100.svg"
-                      roundedCircle
-                    />
+                    <Icons.LinkedinIcon />                                
                   </Col>
                 </Row>
               </Container>
@@ -53,11 +45,7 @@ export default function TopBar() {
               <Container className="container-logos-top">
                 <Row>
                   <Col xs={6} md={4} className="logos-cols-top">
-                    <Image
-                      className="logos-top"
-                      src="/static/images/arroba-100.svg"
-                      roundedCircle
-                    />
+                    <Icons.ArrobaIcon />
                   </Col>
                 </Row>
               </Container>

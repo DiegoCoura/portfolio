@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
 import "./styles.css";
+import BannerShapes from "../icons/BannerShapes";
 
 export default function HeroSection() {
   return (
@@ -38,20 +39,18 @@ export default function HeroSection() {
           </Col>
           <Col xl={6} className="col-banner">
             <Container className="container-2-coluna">
-              <Image
+              <BannerShapes.Blue 
+                id="blueShape"
                 className="banner-img-azul"
-                src="/static/images/vetorFundo-1.png"
-                rounded
               />
               <Image
                 className="banner-img-foto"
                 src="/static/images/fotoDida-2.png"
                 roundedCircle
               />
-              <Image
+              <BannerShapes.White 
+                id="whiteShape"
                 className="banner-img-branco"
-                src="/static/images/vetorSemFundo-1.png"
-                rounded
               />
             </Container>
             

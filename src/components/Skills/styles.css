@@ -15,16 +15,17 @@
   margin-bottom: 25px;
 }
 
-.skills-img{
+.card-skill-img svg{
   padding: 0px;
   width: 100%;
   height: auto;
+  filter: opacity(70%);
   max-width: 190px;
   transition: transform .5s;
 }
 
-.skills-img:hover{
-  padding: 0px;
+.card-skill-img svg:hover{
+  filter: opacity(100%);
   transform: scale(1.1);
 }
 

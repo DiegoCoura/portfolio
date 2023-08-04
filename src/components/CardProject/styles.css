@@ -35,6 +35,7 @@
 .card-banner {
   width: 481px;
   height: 260px;
+  margin-left: -35px;
   transition: transform 0.5s;
 }
 
@@ -124,6 +125,7 @@
     margin-bottom: 20px;
   }
   .card-banner {
+    margin: 0;;
     width: 250px;
     height: 135px;
   }
