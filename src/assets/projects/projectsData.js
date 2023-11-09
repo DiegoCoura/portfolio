@@ -16,6 +16,14 @@ const Projetos = [
         technologies: ["/static/images/html-100.svg", "/static/images/css-100.svg"],
         live:"",
         code:"https://github.com/DiegoCoura/email-marketing"
+    }, {
+        id: 3,
+        title: "AIMPROVER",
+        banner: "/static/images/aimprover-banner.png",
+        description: "A game to practice aiming for fps games",
+        technologies: ["/static/images/react-100.svg", "/static/images/css-100.svg"],
+        live: "https://diegocoura.github.io/aimprover/",
+        code: "https://github.com/DiegoCoura/aimprover"
     }
 ]
 
