@@ -24,6 +24,14 @@ const Projetos = [
         technologies: ["/static/images/react-100.svg", "/static/images/css-100.svg"],
         live: "https://diegocoura.github.io/aimprover/",
         code: "https://github.com/DiegoCoura/aimprover"
+    }, {
+        id: 4,
+        title: "Draw on the Wall",
+        banner: "/static/images/dow-banner.png",
+        description: "A fun project in which you can explore your creativity.",
+        technologies: ["/static/images/html-100.svg", "/static/images/css-100.svg", "/static/images/js-100.svg"],
+        live: "https://diegocoura.github.io/etch-a-sketch/",
+        code: "https://github.com/DiegoCoura/etch-a-sketch"
     }
 ]
 
