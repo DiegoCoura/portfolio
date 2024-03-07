@@ -10,12 +10,12 @@ const Projetos = [
     },
     {
         id: 2,
-        title: "E-mail Marketing",
-        banner: "/static/images/card-emailmkt.png",
-        description: "The project involves creating HTML and CSS for email marketing and developing the correct code for an email delivery platform.",
-        technologies: ["/static/images/html-100.svg", "/static/images/css-100.svg"],
-        live:"",
-        code:"https://github.com/DiegoCoura/email-marketing"
+        title: "Todo List",
+        banner: "/static/images/todoList.png",
+        description: "Challenging project using vanilla JavaScript, drag and drop, localStorage, sorting arrays and more",
+        technologies: ["/static/images/html-100.svg", "/static/images/css-100.svg", "/static/images/js-100.svg"],
+        live:"https://diegocoura.github.io/todo-list/",
+        code:"https://github.com/DiegoCoura/todo-list"
     }, {
         id: 3,
         title: "AIMPROVER",
