@@ -11,7 +11,7 @@ const Projetos = [
     {
         id: 2,
         title: "Todo List",
-        banner: "/static/images/todoList.png",
+        banner: "/static/images/todo2.png",
         description: "Challenging project using vanilla JavaScript, drag and drop, localStorage, sorting arrays and more",
         technologies: ["/static/images/html-100.svg", "/static/images/css-100.svg", "/static/images/js-100.svg"],
         live:"https://diegocoura.github.io/todo-list/",
