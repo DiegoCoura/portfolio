@@ -39,10 +39,11 @@
   height: 260px;
   margin-left: -35px;
   transition: transform 0.5s;
+  transform: scale(.85);
 }
 
 .card-banner:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 
 .card-icons {
